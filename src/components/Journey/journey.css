@@ -1,5 +1,5 @@
 .journey {
-  padding: 5% 10%;
+  padding: 5% 10% 2%;
 }
 
 .journey__info {
@@ -11,7 +11,7 @@
 }
 
 .journey__info h3 {
-  font-size: 40px;
+  font-size: 34px;
   color: black;
   font-weight: 800;
 }
@@ -35,18 +35,23 @@
   color: #413e3e;
 }
 
+.journey__about-tip h4{
+  font-weight: 900;
+  color: black;
+}
+
 .journey__about-tip p {
   width: 90%;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 900px) {
   .journey__info p {
-    width: 62%;
+    width: 65%;
   }
   .journey__about {
     flex-direction: row;
   }
   .journey__about-tip p {
-    width: 60%;
+    width: 80%;
   }
 }

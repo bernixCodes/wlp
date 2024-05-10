@@ -4,6 +4,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PrimaryPageLayout from "./layouts/PrimaryPageLayout";
 import Home from "./pages/HomePage/Home";
+import ListOfBurdens from "./pages/ListBurdenPage/Index";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/burdens",
+        element: <ListOfBurdens />,
       },
     ],
   },

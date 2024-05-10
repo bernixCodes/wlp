@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner/Index";
+import BurdenList from "../../components/BurdenList/Index";
 import Journey from "../../components/Journey/Index";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Banner />
       <Journey />
+      <BurdenList />
     </div>
   );
 };

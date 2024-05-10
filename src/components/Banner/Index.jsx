@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./banner.css";
 
 const Banner = () => {
@@ -16,10 +17,12 @@ const Banner = () => {
 
         <div className="banner__cta">
           <button className="banner__cta-1">Share your burden</button>
-          <button className="banner__cta-2">
-            See all burdens{" "}
-            <span className="material-icons-sharp">arrow_right_alt</span>
-          </button>
+          <Link to={"/burdens"}>
+            <button className="banner__cta-2">
+              See all burdens{" "}
+              <span className="material-icons-sharp">arrow_right_alt</span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
